@@ -3,7 +3,7 @@
 #leverage                = input.string("20",group=bar1)
 #CloseLong_amt  ='%100'
 #CloseShort_amt = '%100'
-#passphrase ="1234"
+#passphrase ="1221"
 #string Alert_OpenLong       ='{"side": "OpenLong", "amount": "@'+str.tostring(lotsbull)+'", "symbol": "{{ticker}}", "passphrase": "'+passphrase+'","leverage":"'+leverage+'"}'
 #string Alert_OpenShort      ='{"side": "OpenShort", "amount": "@'+str.tostring(lotsbear)+'", "symbol": "{{ticker}}", "passphrase": "'+passphrase+'","leverage":"'+leverage+'"}'
 #string Alert_LongTP         ='{"side": "CloseLong", "amount": "%'+str.tostring(TPper)+'", "symbol": "{{ticker}}", "passphrase": "'+passphrase+'","leverage":"'+leverage+'"}'
